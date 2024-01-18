@@ -7,42 +7,31 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shield_Mat
-  m_Shader: {fileID: -6465566751694194690, guid: 9eabd621b07e562418920598f574236a,
+  m_Name: Trail_Mat
+  m_Shader: {fileID: -6465566751694194690, guid: b44008bbc5ac6c0418436b76ccbcdc0a,
     type: 3}
-  m_Parent: {fileID: -876546973899608171, guid: 9eabd621b07e562418920598f574236a,
+  m_Parent: {fileID: -876546973899608171, guid: b44008bbc5ac6c0418436b76ccbcdc0a,
     type: 3}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _ALPHAPREMULTIPLY_ON
-  - _SURFACE_TYPE_TRANSPARENT
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Transparent
-  disabledShaderPasses:
-  - DepthOnly
+  stringTagMap: {}
+  disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
-    m_Floats:
-    - _Blend: 2
-    - _Cull: 2
-    - _DstBlend: 1
-    - _QueueControl: 0
-    - _VertexFrequancy: 5
+    m_Floats: []
     m_Colors:
-    - _BackColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FresnelColor: {r: 0.8018868, g: 0.74039865, b: 0, a: 0}
-    - _FrontColor: {r: 0.8934467, g: 0.9433962, b: 0.4494482, a: 1}
-    - _VertexAmount: {r: 0.001, g: 0.001, b: 0.001, a: 0}
+    - _Color_01: {r: 1.4027807, g: 2.2706025, b: 2.1618164, a: 0}
+    - _Color_02: {r: 1.5071466, g: 0.87302995, b: 0.24882135, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &8469939012032475577
+--- !u!114 &8980532785026442175
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
